@@ -1,0 +1,34 @@
+\documentclass[portrait,fontscale=0.7,margin=0.7cm,paperwidth=15truecm, paperheight=9truecm,debug]{baposter}
+
+
+\begin{document}
+
+\begin{poster}{
+  background=plain,
+  bgColorOne=lightgray!30,
+  headerheight=0.4\textheight,
+  columns=2,
+  headershade=plain,
+  headerColorOne=green!40,
+  boxColorOne=lightgray!75,
+  headershape=smallrounded,
+  textborder=roundedsmall,
+  linewidth=0.5pt,
+  borderColor=green,
+  headerborder=open,
+}{\fbox{\parbox{1cm}{Logo}}}{\fbox{Poster Title}}{\fbox{Poster authors or subtitle}}{\fbox{\parbox{1cm}{Logo}}}
+
+\begin{posterbox}[column=0]{Box 1}
+Text of Box 1
+\end{posterbox}
+
+\begin{posterbox}[column=0,below=auto,height=bottom]{Box 2}
+Text of Box 2
+\end{posterbox}
+
+\begin{posterbox}[column=1,height=bottom]{Box 2}
+Text of Box 3
+\end{posterbox}
+
+\end{poster}
+\end{document}

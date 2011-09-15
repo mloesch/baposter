@@ -1,0 +1,955 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.9.14)  14 SEP 2011 12:48
+entering extended mode
+ %&-line parsing enabled.
+**poster.tex
+(./poster.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, danish, french, basque, ngerman, german, german-x-2009-06-19, ngerm
+an-x-2009-06-19, ukenglish, loaded.
+(./baposter.cls
+Document Class: baposter 2011/08/25 v2.0 baposter class
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+baposter: Brian Amberg, 2007, 2008, 2009, 2010, 2011 | http://www.brian-amberg.
+de/uni/poster/
+baposter: Reinhold Kainhofer, 2011 | http://reinhold.kainhofer.com/
+\baposter@basepaperwidth=\skip43
+\baposter@basepaperheight=\skip44
+\baposter@basemargin=\skip45
+\baposter@finalpaperwidth=\skip46
+\baposter@finalpaperheight=\skip47
+\baposter@finalmargin=\skip48
+\headerheight=\skip49
+\colwidth=\skip50
+\colheight=\skip51
+\baposter@@colspacing=\skip52
+\baposter@box@@cornerradius=\skip53
+\baposter@box@@boxheaderheight=\skip54
+\baposter@box@@boxpadding=\skip55
+\boxstartx=\skip56
+\boxstarty=\skip57
+\boxwidth=\skip58
+\boxheight=\skip59
+\baposter@titleimage@left@width=\skip60
+\baposter@titleimage@right@width=\skip61
+\baposter@titleimage@textwidth=\skip62
+\baposter@box@content=\box26
+\baposter@titleimage@left=\box27
+\baposter@titleimage@title=\box28
+\baposter@titleimage@right=\box29
+Use Packages
+(/usr/share/texmf-texlive/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/usr/share/texmf-texlive/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count87
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+
+(/usr/share/texmf-texlive/tex/generic/xkeyval/keyval.tex)))
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count90
+\calc@Cskip=\skip65
+)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count91
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2008/02/20 v2.00 (rcs-revision 1.21)
+))
+Package: pgf 2008/01/15 v2.00 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+)
+\pgf@x=\dimen107
+\pgf@y=\dimen108
+\pgf@xa=\dimen109
+\pgf@ya=\dimen110
+\pgf@xb=\dimen111
+\pgf@yb=\dimen112
+\pgf@xc=\dimen113
+\pgf@yc=\dimen114
+\c@pgf@counta=\count92
+\c@pgf@countb=\count93
+\c@pgf@countc=\count94
+\c@pgf@countd=\count95
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/01/13  (rcs-revision 1.6)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 885.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2007/12/20  (rcs-revision 1.20)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2007/12/17  (rcs-revision 1.8)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
+\pgfsyssoftpath@smallbuffer@items=\count96
+\pgfsyssoftpath@bigbuffer@items=\count97
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2008/01/15 v2.00 (rcs-revision 1.6)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgfmath@box=\box30
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@stack=\toks19
+\c@pgfmath@parsecounta=\count98
+\c@pgfmath@parsecountb=\count99
+\c@pgfmath@parsecountc=\count100
+\pgfmath@parsex=\dimen115
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathoperations.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathtrig.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathrnd.code.tex))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathbase.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
+\pgf@picminx=\dimen116
+\pgf@picmaxx=\dimen117
+\pgf@picminy=\dimen118
+\pgf@picmaxy=\dimen119
+\pgf@pathminx=\dimen120
+\pgf@pathmaxx=\dimen121
+\pgf@pathminy=\dimen122
+\pgf@pathmaxy=\dimen123
+\pgf@xx=\dimen124
+\pgf@xy=\dimen125
+\pgf@yx=\dimen126
+\pgf@yy=\dimen127
+\pgf@zx=\dimen128
+\pgf@zy=\dimen129
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2008/02/13  (rcs-revision 1.14)
+\pgf@path@lastx=\dimen130
+\pgf@path@lasty=\dimen131
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/01/23  (rcs-revision 1.11)
+\pgf@shorten@end@additional=\dimen132
+\pgf@shorten@start@additional=\dimen133
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2008/01/15  (rcs-revision 1.26)
+\pgfpic=\box31
+\pgf@hbox=\box32
+\pgf@layerbox@main=\box33
+\pgf@picture@serial@count=\count101
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2007/12/12  (rcs-revision 1.8)
+\pgflinewidth=\dimen134
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
+\pgf@pt@x=\dimen135
+\pgf@pt@y=\dimen136
+\pgf@pt@temp=\dimen137
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/01/23  (rcs-revision 1.7)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2007/06/07  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2007/12/10  (rcs-revision 1.9)
+\pgf@max=\dimen138
+\pgf@sys@shading@range@num=\count102
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgfexternal@startupbox=\box34
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2008/02/13  (rcs-revision 1.4)
+\pgfnodeparttextbox=\box35
+\toks@savedmacro=\toks20
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgf@plotwrite=\write3
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.00 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen139
+\pgf@nodesepend=\dimen140
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.00 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2007/11/07 v2.00 (rcs-revision 1.8)
+\pgffor@iter=\dimen141
+\pgffor@skip=\dimen142
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2008/02/13 v2.00 (rcs-revision 1.27)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
+\pgf@plot@mark@count=\count103
+\pgfplotmarksize=\dimen143
+)
+\tikz@lastx=\dimen144
+\tikz@lasty=\dimen145
+\tikz@lastxsaved=\dimen146
+\tikz@lastysaved=\dimen147
+\tikzleveldistance=\dimen148
+\tikzsiblingdistance=\dimen149
+\tikz@figbox=\box36
+\tikz@tempbox=\box37
+\tikztreelevel=\count104
+\tikznumberofchildren=\count105
+\tikznumberofcurrentchild=\count106
+\tikz@fig@count=\count107
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgfmatrixcurrentrow=\count108
+\pgfmatrixcurrentcolumn=\count109
+\pgf@matrix@numberofcolumns=\count110
+)
+\tikz@expandcount=\count111
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
+))) (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texmf-texlive/tex/latex/nag/nag.sty
+Package: nag 2009/07/30 0.62 warning about old commands (ulmi)
+\c@nag@c=\count112
+\c@nag@sins=\count113
+Package nag Info: Loaded nag-l2tabu.cfg  on input line 493.
+
+(/usr/share/texmf-texlive/tex/latex/nag/nag-l2tabu.cfg
+File: nag-l2tabu.cfg 2008/01/27 v2.1alpha1 l2tabu rules for nag.sty (ulmi)
+)
+Package nag Info: Loaded nag-orthodox.cfg  on input line 493.
+
+(/usr/share/texmf-texlive/tex/latex/nag/nag-orthodox.cfg
+File: nag-orthodox.cfg 2006/04/19 v1.8 strict rules for nag.sty (ulmi)
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.code.tex
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen150
+\pgfdecoratedremainingdistance=\dimen151
+\pgfdecoratedinputsegmentcompleteddistance=\dimen152
+\pgfdecoratedinputsegmentremainingdistance=\dimen153
+\pgf@decorate@distancetomove=\dimen154
+\pgf@decorate@repeatstate=\count114
+\pgfdecorationsegmentamplitude=\dimen155
+\pgfdecorationsegmentlength=\dimen156
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadin
+gs.code.tex
+File: tikzlibraryfadings.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2008/02/07 v2.00 (rcs-revision 1.3)
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysnake
+s.code.tex
+File: tikzlibrarysnakes.code.tex 2008/02/05 v2.00 (rcs-revision 1.6)
+
+
+Package tikz Warning: Snakes have been superseded by decorations. Please use th
+e decoration libraries instead of the snakes library on input line 14.
+
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.pathmorphing.code.tex
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarydecorations.pathmorphing.
+code.tex))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.pathreplacing.code.tex
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarydecorations.pathreplacing
+.code.tex))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.shapes.code.tex
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarydecorations.shapes.code.t
+ex)))
+\baposter@movebody=\skip66
+\baposter@basemarginright=\skip67
+\baposter@basemarginleft=\skip68
+ (/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count115
+\Gm@cntv=\count116
+\c@Gm@tempcnt=\count117
+\Gm@bindingoffset=\dimen157
+\Gm@wd@mp=\dimen158
+\Gm@odd@mp=\dimen159
+\Gm@even@mp=\dimen160
+\Gm@dimlist=\toks21
+)
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfpages.sty
+Package: pgfpages 2004/11/05 ver 0.01
+\pgf@logicalpages=\count118
+\pgf@firstshipout=\count119
+\pgf@lastshipout=\count120
+\pgf@currentshipout=\count121
+\pgf@cpn=\count122
+\pgf@shipoutnextto=\count123
+\pgfphysicalheight=\dimen161
+\pgfphysicalwidth=\dimen162
+\pgfpages@shipoutbox=\box38
+)
+\pgfpages@box@1=\box39
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/relsize.sty
+Package: relsize 2003/07/04 ver 3.1
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 433.
+(/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
+)))
+(./poster.aux)
+\openout1 = `poster.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count124
+\scratchdimen=\dimen163
+\scratchbox=\box40
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen164
+\MPnumerator=\count128
+\everyMPtoPDFconversion=\toks23
+)
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 45.
+Package nag Info: Command \frontmatter not defined, skipping amendment on input
+ line 45.
+Package nag Info: Command \mainmatter not defined, skipping amendment on input 
+line 45.
+Package nag Info: Command \backmatter not defined, skipping amendment on input 
+line 45.
+Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
+line 45.
+Package nag Info: Command \RaggedRight not defined, skipping amendment on input
+ line 45.
+
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+-------------------- Geometry parameters
+paper: user defined
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 12.46262pt, 673.81259pt, 12.46262pt
+v-parts: 12.46262pt, 962.9455pt, 12.46262pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  698.73782pt
+\paperheight 987.87073pt
+\textwidth  673.81259pt
+\textheight 962.9455pt
+\oddsidemargin  -59.80737pt
+\evensidemargin -59.80737pt
+\topmargin  -96.80737pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 65.0pt
+\marginparsep   11.0pt
+\columnsep  10.0pt
+\skip\footins  9.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
+put line 45.
+Package nag Info: Command \captionabove not defined, skipping amendment on inpu
+t line 45.
+Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
+t line 45.
+Package nag Info: Command \hc@caption not defined, skipping amendment on input 
+line 45.
+Package nag Info: Command \topcaption not defined, skipping amendment on input 
+line 45.
+Poster rendering started
+Package epstopdf Info: Source file: <pix/background.eps>
+(epstopdf)                    date: 2011-08-30 16:41:36
+(epstopdf)                    size: 148262 bytes
+(epstopdf)             Output file: <pix/background-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-09-14 12:48:48
+(epstopdf)                    size: 59154 bytes
+(epstopdf)             Command: <epstopdf --outfile=pix/background-eps-converte
+d-to.pdf pix/background.eps>
+(epstopdf)             \includegraphics on input line 104.
+Package epstopdf Info: Output file is already uptodate.
+<pix/background-eps-converted-to.pdf, id=20, 1393.205pt x 916.42375pt>
+File: pix/background-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pix/background-eps-converted-to.pdf>
+Missing character: There is no E in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Package epstopdf Info: Source file: <pix/colbud_logo.eps>
+(epstopdf)                    date: 2011-09-07 15:42:28
+(epstopdf)                    size: 89322 bytes
+(epstopdf)             Output file: <pix/colbud_logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-09-14 12:48:49
+(epstopdf)                    size: 20052 bytes
+(epstopdf)             Command: <epstopdf --outfile=pix/colbud_logo-eps-convert
+ed-to.pdf pix/colbud_logo.eps>
+(epstopdf)             \includegraphics on input line 104.
+Package epstopdf Info: Output file is already uptodate.
+
+<pix/colbud_logo-eps-converted-to.pdf, id=21, 341.275pt x 155.58125pt>
+File: pix/colbud_logo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pix/colbud_logo-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pix/elte_logo.eps>
+(epstopdf)                    date: 2011-09-07 18:50:12
+(epstopdf)                    size: 190390 bytes
+(epstopdf)             Output file: <pix/elte_logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-09-14 12:48:49
+(epstopdf)                    size: 36217 bytes
+(epstopdf)             Command: <epstopdf --outfile=pix/elte_logo-eps-converted
+-to.pdf pix/elte_logo.eps>
+(epstopdf)             \includegraphics on input line 104.
+Package epstopdf Info: Output file is already uptodate.
+
+<pix/elte_logo-eps-converted-to.pdf, id=22, 268.00125pt x 268.00125pt>
+File: pix/elte_logo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pix/elte_logo-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pix/dynanets_logo.eps>
+(epstopdf)                    date: 2011-09-07 15:42:28
+(epstopdf)                    size: 43092 bytes
+(epstopdf)             Output file: <pix/dynanets_logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-09-14 12:48:49
+(epstopdf)                    size: 13346 bytes
+(epstopdf)             Command: <epstopdf --outfile=pix/dynanets_logo-eps-conve
+rted-to.pdf pix/dynanets_logo.eps>
+(epstopdf)             \includegraphics on input line 104.
+Package epstopdf Info: Output file is already uptodate.
+
+<pix/dynanets_logo-eps-converted-to.pdf, id=23, 247.92625pt x 107.40125pt>
+File: pix/dynanets_logo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pix/dynanets_logo-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pix/aitia_logo.eps>
+(epstopdf)                    date: 2011-08-30 16:41:36
+(epstopdf)                    size: 13263 bytes
+(epstopdf)             Output file: <pix/aitia_logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-09-14 12:48:49
+(epstopdf)                    size: 7955 bytes
+(epstopdf)             Command: <epstopdf --outfile=pix/aitia_logo-eps-converte
+d-to.pdf pix/aitia_logo.eps>
+(epstopdf)             \includegraphics on input line 104.
+Package epstopdf Info: Output file is already uptodate.
+
+<pix/aitia_logo-eps-converted-to.pdf, id=24, 83.31125pt x 83.31125pt>
+File: pix/aitia_logo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pix/aitia_logo-eps-converted-to.pdf>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 104.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 104.
+
+
+Package nag Warning: Command \sf is an old LaTeX 2.09 command. 
+(nag)                Use \sffamily or \textsf instead on input line 104.
+
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 104.
+
+(/usr/share/texmf-texlive/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 104.
+
+Package epstopdf Info: Source file: <pix/time_windows.eps>
+(epstopdf)                    date: 2011-08-30 16:41:36
+(epstopdf)                    size: 68162 bytes
+(epstopdf)             Output file: <pix/time_windows-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-09-14 12:48:50
+(epstopdf)                    size: 13915 bytes
+(epstopdf)             Command: <epstopdf --outfile=pix/time_windows-eps-conver
+ted-to.pdf pix/time_windows.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+<pix/time_windows-eps-converted-to.pdf, id=25, 712.6625pt x 434.62375pt>
+File: pix/time_windows-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pix/time_windows-eps-converted-to.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Package nag Warning: Command \sf is an old LaTeX 2.09 command. 
+(nag)                Use \sffamily or \textsf instead on input line 110.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 110.
+
+Missing character: There is no ; in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 118.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 118.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Package nag Warning: Command \sf is an old LaTeX 2.09 command. 
+(nag)                Use \sffamily or \textsf instead on input line 118.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 118.
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Package nag Warning: Command \sf is an old LaTeX 2.09 command. 
+(nag)                Use \sffamily or \textsf instead on input line 126.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 126.
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Package nag Warning: Command \sf is an old LaTeX 2.09 command. 
+(nag)                Use \sffamily or \textsf instead on input line 140.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 140.
+
+Missing character: There is no ; in font nullfont!
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 146.
+
+(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+
+Package nag Warning: Command \sf is an old LaTeX 2.09 command. 
+(nag)                Use \sffamily or \textsf instead on input line 146.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 146.
+
+Missing character: There is no ; in font nullfont!
+Package epstopdf Info: Source file: <pix/PA_and_ER_Models_statisticalMeasures.e
+ps>
+(epstopdf)                    date: 2011-09-09 13:39:42
+(epstopdf)                    size: 395728 bytes
+(epstopdf)             Output file: <pix/PA_and_ER_Models_statisticalMeasures-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2011-09-14 12:48:50
+(epstopdf)                    size: 148078 bytes
+(epstopdf)             Command: <epstopdf --outfile=pix/PA_and_ER_Models_statis
+ticalMeasures-eps-converted-to.pdf pix/PA_and_ER_Models_statisticalMeasures.eps
+>
+(epstopdf)             \includegraphics on input line 152.
+Package epstopdf Info: Output file is already uptodate.
+
+<pix/PA_and_ER_Models_statisticalMeasures-eps-converted-to.pdf, id=27, 561.0962
+5pt x 809.0225pt>
+File: pix/PA_and_ER_Models_statisticalMeasures-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use pix/PA_and_ER_Models_statisticalMeasures-eps-converted-to.pdf>
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+
+Package nag Warning: Command \sf is an old LaTeX 2.09 command. 
+(nag)                Use \sffamily or \textsf instead on input line 152.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 152.
+
+Missing character: There is no ; in font nullfont!
+Package epstopdf Info: Source file: <pix/CPA_3d_snapshot.eps>
+(epstopdf)                    date: 2011-09-09 13:39:42
+(epstopdf)                    size: 330439 bytes
+(epstopdf)             Output file: <pix/CPA_3d_snapshot-eps-converted-to.pdf>
+(epstopdf)                    date: 2011-09-14 12:48:51
+(epstopdf)                    size: 90686 bytes
+(epstopdf)             Command: <epstopdf --outfile=pix/CPA_3d_snapshot-eps-con
+verted-to.pdf pix/CPA_3d_snapshot.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+<pix/CPA_3d_snapshot-eps-converted-to.pdf, id=28, 561.09625pt x 809.0225pt>
+File: pix/CPA_3d_snapshot-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pix/CPA_3d_snapshot-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pix/CPA_3d_cumulative.eps>
+(epstopdf)                    date: 2011-09-09 13:39:42
+(epstopdf)                    size: 336487 bytes
+(epstopdf)             Output file: <pix/CPA_3d_cumulative-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2011-09-14 12:48:51
+(epstopdf)                    size: 90265 bytes
+(epstopdf)             Command: <epstopdf --outfile=pix/CPA_3d_cumulative-eps-c
+onverted-to.pdf pix/CPA_3d_cumulative.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+
+<pix/CPA_3d_cumulative-eps-converted-to.pdf, id=29, 561.09625pt x 809.0225pt>
+File: pix/CPA_3d_cumulative-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pix/CPA_3d_cumulative-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pix/ER1_cumulativeDegrees.eps>
+(epstopdf)                    date: 2011-09-09 13:39:42
+(epstopdf)                    size: 14115 bytes
+(epstopdf)             Output file: <pix/ER1_cumulativeDegrees-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2011-09-14 12:48:51
+(epstopdf)                    size: 10947 bytes
+(epstopdf)             Command: <epstopdf --outfile=pix/ER1_cumulativeDegrees-e
+ps-converted-to.pdf pix/ER1_cumulativeDegrees.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+
+<pix/ER1_cumulativeDegrees-eps-converted-to.pdf, id=30, 561.09625pt x 809.0225p
+t>
+File: pix/ER1_cumulativeDegrees-eps-converted-to.pdf Graphic file (type pdf)
+ <use pix/ER1_cumulativeDegrees-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <pix/CPA_cumulativeDegrees.eps>
+(epstopdf)                    date: 2011-09-09 13:39:42
+(epstopdf)                    size: 19437 bytes
+(epstopdf)             Output file: <pix/CPA_cumulativeDegrees-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2011-09-14 12:48:51
+(epstopdf)                    size: 12590 bytes
+(epstopdf)             Command: <epstopdf --outfile=pix/CPA_cumulativeDegrees-e
+ps-converted-to.pdf pix/CPA_cumulativeDegrees.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+
+<pix/CPA_cumulativeDegrees-eps-converted-to.pdf, id=31, 561.09625pt x 809.0225p
+t>
+File: pix/CPA_cumulativeDegrees-eps-converted-to.pdf Graphic file (type pdf)
+ <use pix/CPA_cumulativeDegrees-eps-converted-to.pdf>
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+
+Package nag Warning: Command \sf is an old LaTeX 2.09 command. 
+(nag)                Use \sffamily or \textsf instead on input line 169.
+
+
+Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
+(nag)                Use \bfseries or \textbf instead on input line 169.
+
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (2.22534pt too wide) in paragraph at lines 104--171
+[][]  [] 
+ []
+
+[2
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Memory usage before: 30424&243275; after: 30396&243268; still untouched: 271812
+3
+ <./pix/background-eps-converted-to.pdf> <./pix/colbud_logo-eps-converted-to.pd
+f> <./pix/elte_logo-eps-converted-to.pdf> <./pix/dynanets_logo-eps-converted-to
+.pdf> <./pix/aitia_logo-eps-converted-to.pdf> <./pix/time_windows-eps-converted
+-to.pdf> <./pix/PA_and_ER_Models_statisticalMeasures-eps-converted-to.pdf> <./p
+ix/CPA_3d_snapshot-eps-converted-to.pdf> <./pix/CPA_3d_cumulative-eps-converted
+-to.pdf> <./pix/ER1_cumulativeDegrees-eps-converted-to.pdf> <./pix/CPA_cumulati
+veDegrees-eps-converted-to.pdf>]
+Memory usage before: 30396&243235; after: 16126&239867; still untouched: 271812
+3
+
+Package nag Warning: 16 complaints in total.
+
+(./poster.aux) ) 
+Here is how much of TeX's memory you used:
+ 10577 strings out of 494959
+ 199673 string characters out of 1178617
+ 281877 words of memory out of 3000000
+ 13508 multiletter control sequences out of 15000+50000
+ 14844 words of font info for 33 fonts, out of 3000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 54i,11n,70p,620b,895s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/bamberg/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800
+.600pk> </home/bamberg/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0800.600pk> <
+/home/bamberg/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/bam
+berg/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/bamberg/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/bamberg/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/bamberg/.texmf-var/fonts/pk/lj
+four/jknappen/ec/ecbx1440.600pk> </home/bamberg/.texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecrm1200.600pk> </home/bamberg/.texmf-var/fonts/pk/ljfour/jknappen/ec/e
+crm1440.600pk> </home/bamberg/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.6
+00pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb>
+Output written on poster.pdf (1 page, 690125 bytes).
+PDF statistics:
+ 488 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+
