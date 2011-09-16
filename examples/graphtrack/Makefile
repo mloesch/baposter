@@ -1,4 +1,4 @@
-ALL: poster.pdf 
+ALL: poster_portrait.pdf poster_landscape.pdf
 
 %.pdf: %.tex Makefile
 	pdflatex --enable-write18 $< &&	pdflatex $< && pdflatex $<
