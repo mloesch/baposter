@@ -11,6 +11,9 @@
 %% Copyright (C) 2007-2011 Brian Amberg
 %% Copyright (C) 2011      Reinhold Kainhofer <reinhold@kainhofer.com>
 %%
+%% 16. September 2011:
+%%     - Removed nag package, such that it compiles on older systems
+%%     - Added more examples
 %% 15. September 2011:
 %%     - Merged fork by (rk) back into mainline, essentially taking over all the great improvements that Reinhold Kainhofer coded.
 %%       We call this version 2, as it breaks the interface in some small points. Essentially watch out for this:
