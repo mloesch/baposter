@@ -144,7 +144,7 @@
 \RequirePackage{pgf}
 \RequirePackage{ifthen}
 \RequirePackage[T1]{fontenc}
-\RequirePackage[l2tabu, orthodox]{nag}
+%\RequirePackage[l2tabu, orthodox]{nag}
 \usetikzlibrary{decorations}
 \usetikzlibrary{fadings}
 \usetikzlibrary{snakes}
