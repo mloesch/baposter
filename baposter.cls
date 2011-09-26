@@ -11,6 +11,10 @@
 %% Copyright (C) 2007-2011 Brian Amberg
 %% Copyright (C) 2011      Reinhold Kainhofer <reinhold@kainhofer.com>
 %%
+%% 26. September 2011:
+%%     - Reverted drawing of faded borders to manual method, as the current result does not work with evince, 
+%%       and produced spurious colored boxes with okular and acroread.
+%%     - Added one more example due to popular request
 %% 16. September 2011:
 %%     - Removed nag package, such that it compiles on older systems
 %%     - Added more examples
@@ -96,12 +100,11 @@
 %% -) Rename headershade back to shade-lr, shade-tb, shade-tb-inverse
 %% -) Rename headershape back to small-rounded
 %% -) Option value consistency (small-rounded vs. rounded-small; missing ones)
-%% -) Rename \baposterDrawPosterBackground, \baposterTextborder, \baposterBoxShade,
-%%    \baposterHeaderSetShade, \baposterHeaderDrawText to include @ and verb
+%% -) Rename \baposterHeaderSetShade, \baposterHeaderDrawText to include @ and verb
 %%
 %%
 %% Licence: GPL
-\ProvidesClass{baposter}[2011/09/15 v2.0 baposter class]
+\ProvidesClass{baposter}[2011/11/26 v2.0 baposter class]
 \NeedsTeXFormat{LaTeX2e}[1995/06/01]
 \LoadClass{article}
 \typeout{baposter: Brian Amberg, 2007, 2008, 2009, 2010, 2011 | http://www.brian-amberg.de/uni/poster/}
@@ -151,13 +154,13 @@
 \usetikzlibrary{decorations}
 \usetikzlibrary{fadings}
 \usetikzlibrary{snakes}
+\usetikzlibrary{calc}
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Settings
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% TODO: Add package options
 
 % Choose a smaller value for larger fonts
 \newcommand{\baposter@fontscale}{0.292}
@@ -273,8 +276,6 @@
 \newcommand{\baposterHeaderDrawText}[1]{}       % Draw text inside box header
 
 \newcommand{\@@previousbox}{notset}             % stores the previously processed box for below=auto
-
-
 
 % Function to set a user-defined background
 \newcommand{\baposter@backgroundCmd}{\error{No background command defined. Use \background{...} to define background}}
@@ -521,7 +522,10 @@
   (\baposter@box@name tnw) -- (\baposter@box@name sw) -- %
   (\baposter@box@name se) -- (\baposter@box@name tne)%
 }
-\newcommand{\baposter@box@boxshape@faded}{\baposter@box@boxshape@rectangle}
+\newcommand{\baposter@box@boxshape@faded}{
+  (\baposter@box@name tnw) -- (\baposter@box@name sw) %
+  (\baposter@box@name tne) -- (\baposter@box@name se)
+  }
 \newcommand{\baposter@box@boxshape@rounded}{
   [rc] \baposter@box@boxshape@rectangle%
 }
@@ -589,7 +593,11 @@
   \draw[color=#1] \baposterBoxGetShape;%
 }
 \newcommand{\baposter@box@drawborder@faded}[1]{
-  \draw [color=#1,path fading=south] \baposterBoxGetShape;%
+  % This is the right way to do it, but it does not work with evince, and has problems during printing, so instead we do
+  %\draw[color=#1,path fading=south] \baposterBoxGetShape;%
+  % this
+  \foreach \x in {0,1,...,90} \draw[color=#1!\x] ($(\baposter@box@name tnw)!{(100-\x)/100}!(\baposter@box@name sw)$) -- ($(\baposter@box@name tnw)!{(100-(\x+10))/100}!(\baposter@box@name sw)$);%
+  \foreach \x in {0,1,...,90} \draw[color=#1!\x] ($(\baposter@box@name tne)!{(100-\x)/100}!(\baposter@box@name se)$) -- ($(\baposter@box@name tne)!{(100-(\x+10))/100}!(\baposter@box@name se)$);%
 }
 \newcommand{\baposter@box@drawborder@roundedsmall}[1]{
   \draw[color=#1] \baposterBoxGetShape;%
@@ -694,14 +702,6 @@
     \tikzstyle{header colors}=[]
 }
 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Header shade options and functions (one function for each possible value)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% These functions take no arguments
-% TODO: Drawing routines for header border & background
 
 
 
