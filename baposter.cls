@@ -174,25 +174,62 @@
 
 %% Paper sizes
 \newif\if@landscape
+\newif\if@geometryKnowsThisSize
 \DeclareOptionX{landscape}{\@landscapetrue}
 \DeclareOptionX{portrait}{}
 
 \newcommand{\baposter@setfinalpapersize}[2]{%
+\if@geometryKnowsThisSize
   \setlength{\baposter@finalpaperwidth}{#1}%
   \setlength{\baposter@finalpaperheight}{#2}%
+\else
+\if@landscape
+% Transpose length, if geometry does not handle the papersize based on the key
+  \setlength{\baposter@finalpaperwidth}{#2}%
+  \setlength{\baposter@finalpaperheight}{#1}%
+\else
+  \setlength{\baposter@finalpaperwidth}{#1}%
+  \setlength{\baposter@finalpaperheight}{#2}%
+\fi
+\fi
 }
-\baposter@setfinalpapersize{841mm}{1189mm}
 
+% Default paperwidth and paperheight = a0paper
 \DeclareOptionX{paperwidth}[841mm]{\setlength{\baposter@finalpaperwidth}{#1}}
 \DeclareOptionX{paperheight}[1189mm]{\setlength{\baposter@finalpaperheight}{#1}}
-\DeclareOptionX{a0paper}{\baposter@setfinalpapersize{841mm}{1189mm}}
-\DeclareOptionX{a1paper}{\baposter@setfinalpapersize{594mm}{841mm}}
-\DeclareOptionX{a2paper}{\baposter@setfinalpapersize{420mm}{594mm}}
-\DeclareOptionX{a3paper}{\baposter@setfinalpapersize{297mm}{420mm}}
-\DeclareOptionX{a4paper}{\baposter@setfinalpapersize{210mm}{297mm}}
-\DeclareOptionX{a5paper}{\baposter@setfinalpapersize{148.5mm}{210mm}}
-\DeclareOptionX{archE}{\baposter@setfinalpapersize{91.44cm}{121.92cm}}
+\DeclareOptionX{archA}         {                           \baposter@setfinalpapersize{9in}{12in}}%
+\DeclareOptionX{archB}         {                           \baposter@setfinalpapersize{12in}{18in}}%
+\DeclareOptionX{archC}         {                           \baposter@setfinalpapersize{18in}{24in}}%
+\DeclareOptionX{archD}         {                           \baposter@setfinalpapersize{24in}{36in}}%
+\DeclareOptionX{archE}         {                           \baposter@setfinalpapersize{36in}{48in}}%
+\DeclareOptionX{archE1}        {                           \baposter@setfinalpapersize{30in}{42in}}%
+\DeclareOptionX{archE2}        {                           \baposter@setfinalpapersize{26in}{38in}}%
+\DeclareOptionX{archE3}        {                           \baposter@setfinalpapersize{27in}{39in}}%
+\DeclareOptionX{a0paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{841mm}{1189mm}}%g
+\DeclareOptionX{a1paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{594mm}{841mm}}%g
+\DeclareOptionX{a2paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{420mm}{594mm}}%g
+\DeclareOptionX{a3paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{297mm}{420mm}}%g
+\DeclareOptionX{a4paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{210mm}{297mm}}%g
+\DeclareOptionX{a5paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{148mm}{210mm}}%g
+\DeclareOptionX{a6paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{105mm}{148mm}}%g
+\DeclareOptionX{b0paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{1000mm}{1414mm}}%g
+\DeclareOptionX{b1paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{707mm}{1000mm}}%g
+\DeclareOptionX{b2paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{500mm}{707mm}}%g
+\DeclareOptionX{b3paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{353mm}{500mm}}%g
+\DeclareOptionX{b4paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{250mm}{353mm}}%g
+\DeclareOptionX{b5paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{176mm}{250mm}}%g
+\DeclareOptionX{b6paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{125mm}{176mm}}%g
+\DeclareOptionX{ansiapaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{8.5in}{11in}}%
+\DeclareOptionX{ansibpaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{11in}{17in}}%
+\DeclareOptionX{ansicpaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{17in}{22in}}%
+\DeclareOptionX{ansidpaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{22in}{34in}}%
+\DeclareOptionX{ansiepaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{34in}{44in}}%
+\DeclareOptionX{letterpaper}   {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{8.5in}{11in}}%
+\DeclareOptionX{legalpaper}    {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{8.5in}{14in}}%
+\DeclareOptionX{executivepaper}{\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{7.25in}{10.5in}}%
+\DeclareOptionX{screen}        {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{225mm}{180mm}}%g
 
+% Margin
 \setlength{\baposter@finalmargin}{1.5cm}
 \DeclareOptionX{fontscale}[0.292]{\renewcommand{\baposter@fontscale}{#1}}
 \DeclareOptionX{margin}   [1.5cm]{\setlength{\baposter@finalmargin}{#1}}
@@ -211,7 +248,6 @@
 
 \ProcessOptionsX
 
-
 \if@debug
 \newcommand{\debug}[1]{\typeout{#1}}
 \else
@@ -219,13 +255,6 @@
 \fi
 
 
-\if@landscape
-\debug{Swapping paper sizes}
-\newlength{\baposter@swappapersizes}
-\setlength{\baposter@swappapersizes}{\baposter@finalpaperwidth}
-\setlength{\baposter@finalpaperwidth}{\baposter@finalpaperheight}
-\setlength{\baposter@finalpaperheight}{\baposter@swappapersizes}
-\fi
 
 \setlength{\baposter@basepaperwidth} {\baposter@fontscale\baposter@finalpaperwidth }
 \setlength{\baposter@basepaperheight}{\baposter@fontscale\baposter@finalpaperheight}
@@ -237,10 +266,10 @@
 \setlength{\baposter@basemarginleft}{\baposter@basemargin}
 \addtolength{\baposter@basemarginleft}{\baposter@fontscale\baposter@movebody}
 
-\debug{Paperwidth=\the\baposter@finalpaperwidth}
-\debug{Paperheight=\the\baposter@finalpaperheight}
-\debug{BasePaperwidth=\the\baposter@basepaperwidth}
-\debug{BasePaperheight=\the\baposter@basepaperheight}
+\typeout{Paperwidth=\the\baposter@finalpaperwidth}
+\typeout{Paperheight=\the\baposter@finalpaperheight}
+\typeout{BasePaperwidth=\the\baposter@basepaperwidth}
+\typeout{BasePaperheight=\the\baposter@basepaperheight}
 \usepackage[
    paperwidth=\baposter@basepaperwidth,
    paperheight=\baposter@basepaperheight,
@@ -248,10 +277,18 @@
    bmargin=\baposter@basemargin,
    lmargin=\baposter@basemarginleft,
    rmargin=\baposter@basemarginright,
-   portrait]{geometry} % The portrait switch is necessary to override the double swapping which would otherwise happen in landscape mode
+   ]{geometry} 
 
 \usepackage{pgfpages}
+\if@landscape
+\if@geometryKnowsThisSize
+\pgfpagesuselayout{resize to}[physical paper width=\baposter@finalpaperheight,physical paper height=\baposter@finalpaperwidth]
+\else
 \pgfpagesuselayout{resize to}[physical paper width=\baposter@finalpaperwidth,physical paper height=\baposter@finalpaperheight]
+\fi
+\else
+\pgfpagesuselayout{resize to}[physical paper width=\baposter@finalpaperwidth,physical paper height=\baposter@finalpaperheight]
+\fi
 
 
 
