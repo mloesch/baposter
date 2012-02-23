@@ -988,21 +988,21 @@
       \ifcase\baposter@box@headerbordernr\relax%
         % open
         \ifthenelse{\equal{\baposter@box@headershade}{plain}}{
-          \filldraw  [style=header colors] \baposterHeaderGetShape;%
+          \filldraw  [style=header colors, opacity=\baposter@box@boxopacity] \baposterHeaderGetShape;%
         }{
           \shadedraw [style=header colors] \baposterHeaderGetShape;%
         }
       \or
         % closed
         \ifthenelse{\equal{\baposter@box@headershade}{plain}}{
-          \filldraw  [style=header colors] \baposterHeaderGetShape -- cycle;%
+          \filldraw  [style=header colors, opacity=\baposter@box@boxopacity] \baposterHeaderGetShape -- cycle;%
         }{
           \shadedraw [style=header colors] \baposterHeaderGetShape -- cycle;%
         }
       \or
         % none
         \ifthenelse{\equal{\baposter@box@headershade}{plain}}{
-          \fill      [style=header colors] \baposterHeaderGetShape;%
+          \fill      [style=header colors, opacity=\baposter@box@boxopacity] \baposterHeaderGetShape;%
         }{
           \shade     [style=header colors] \baposterHeaderGetShape;%
         }
