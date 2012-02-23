@@ -452,6 +452,7 @@
 \define@cmdkey[ba]{posterbox}[baposter@box@]{boxColorTwo}           [cyan]        {}
 \define@cmdkey[ba]{posterbox}[baposter@box@]{headerfont}            [\scshape\Large]   {}
 \define@cmdkey[ba]{posterbox}[baposter@box@]{textfont}              [{}]          {}
+\define@cmdkey[ba]{posterbox}[baposter@box@]{boxopacity}            [1.0]   {}
 
 \define@cmdkey[ba]{posterbox}[baposter@box@]{linewidth}             [2pt]         {}
 
@@ -509,6 +510,7 @@
   headershade=shadeLR,
   headerborder=none,
   boxheaderheight=2em,
+  boxopacity=1.0
 }{}
 
 
@@ -592,7 +594,7 @@
 }
 \newcommand{\baposter@box@drawbackground@plain}[2]{
   \tikzstyle{box colors}=[fill=#1]
-  \fill[box colors] \baposterBoxGetShape;
+  \fill[box colors, opacity=\baposter@box@boxopacity] \baposterBoxGetShape;
 }
 \newcommand{\baposter@box@drawbackground@shadelr}[2]{
   \tikzstyle{box colors}=[shading=axis, left color=#1, right color=#2]%
