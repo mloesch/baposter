@@ -1,4 +1,7 @@
-Latex Poster Template
+Clone of Brian Amberg's LaTeC Poster Template
+
+The original source can be found at:
+http://www.brian-amberg.de/uni/poster/
 
 A latex template to efficently design pretty posters. Posters are composited of
 blocks with headings, that can be positioned easily on the page, using absolute
