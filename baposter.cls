@@ -1005,7 +1005,7 @@
         \ifthenelse{\equal{\baposter@box@headershade}{plain}}{
           \filldraw  [style=header colors, opacity=\baposter@box@boxopacity] \baposterHeaderGetShape;%
         }{
-          \shadedraw [style=header colors] \baposterHeaderGetS(100-(\x+10))/100hape;%
+          \shadedraw [style=header colors] \baposterHeaderGetShape;%
         }
       \or
         % closed
